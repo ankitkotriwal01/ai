@@ -3,11 +3,11 @@ import replicate
 import os
 
 # App title
-st.set_page_config(page_title="🦙💬 The Happy Finance Chatbot")
+st.set_page_config(page_title="The Happy Finance Chatbot")
 
 # Replicate Credentials
 with st.sidebar:
-    st.title('🦙💬 The Happy Finance Chatbox')
+    st.title('The Happy Finance Chatbox')
     st.write('This chatbot is created using the open-source Llama 2 LLM model.')
     if 'REPLICATE_API_TOKEN' in st.secrets:
         st.success('API key already provided!', icon='✅')
